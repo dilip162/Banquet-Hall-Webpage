@@ -1,0 +1,44 @@
+.head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: var(--clr1);
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.head .logo {
+  font-size: 2.5rem;
+  color: var(--clr3);
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+span {
+  color: var(--clr5);
+  font-size: 2.5rem;
+}
+
+.head .navbar {
+  font-size: 1.8rem;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.head .navbar a {
+  padding-left: 1.5rem;
+  color: var(--clr3);
+}
+
+#menu-bar {
+  display: none;
+  color: var(--clr3);
+}

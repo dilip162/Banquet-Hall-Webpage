@@ -1,0 +1,39 @@
+.vendor-list {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vendor .vendor-row {
+  max-width: 1300px;
+  background: rgb(245, 236, 245);
+  height: 35rem;
+  flex: 1 1 30rem;
+  padding: 1.2rem;
+  margin: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.1rem 0.4rem rgb(236, 68, 90);
+}
+
+.vendor-row:hover {
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: rotate(5deg);
+}
+
+.vendor .vendor-row img {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.vendor-row h4 {
+  text-align: center;
+}
+
+.vendor-row h2 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1.5rem;
+}

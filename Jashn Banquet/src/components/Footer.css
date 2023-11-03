@@ -1,0 +1,82 @@
+footer {
+  padding: 0.5rem 5%;
+}
+
+#contact {
+  background-color: var(--clr2);
+}
+
+.container {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.f-container h2 {
+  font-size: 2.5rem;
+  color: var(--clr3);
+  padding: 1rem 0;
+}
+
+.f-container a {
+  text-decoration: none;
+  color: var(--clr3);
+}
+
+.f-container a:hover {
+  transform: translateX(0.5rem);
+  transition: 0.5s ease;
+}
+
+.f-container i {
+  padding-right: 0.5rem;
+  color: var(--clr1);
+}
+
+.f-container p {
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  color: var(--clr1);
+}
+
+.f-container input {
+  width: 90%;
+  padding: 1rem;
+  background: #eee;
+  /* border: 0.2rem solid var(--clr1); */
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.f-container .btn {
+  background: var(--clr1);
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2rem;
+  border-radius: 0.2rem;
+}
+
+.footer-content {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-content h1 {
+  font-size: 3rem;
+  color: #aaa;
+}
+
+.copyright {
+  padding: 1.5rem 0;
+  text-align: center;
+  background: var(--clr1);
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.copyright p {
+  font-size: 1.6rem;
+  color: #bdb9b9;
+}
